@@ -36,8 +36,10 @@ let anotherNumber = 5;
 console.log(typeof anotherNumber); //number
 anotherNumber = String(anotherNumber);
 console.log(typeof anotherNumber); //string
+console.log(anotherNumber);
 
-let str = "abc";
-console.log(typeof str); //string
-str = Number(str);
-console.log(typeof str); //number
+let anotherString2 = "132";
+console.log(typeof anotherString2); //string
+anotherString2 = Number(anotherString2);
+console.log(typeof anotherString2); //number
+console.log(anotherString2); //132
