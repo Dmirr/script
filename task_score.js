@@ -11,3 +11,6 @@ let studentSurname = "Rodionov";
 let studentFullname = studentName + " " + studentSurname;
 
 console.log(` Average points for ${studentFullname} is ${averageScore}`);
+console.log(
+  ` Average points for ${studentFullname.slice(0, 1)} is ${averageScore}`
+);
