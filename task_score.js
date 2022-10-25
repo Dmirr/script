@@ -2,9 +2,9 @@ let introModule = 100;
 let gitModule = 269;
 let jsModule = 175;
 let totalScore = introModule + gitModule + jsModule;
-console.log(totalScore);
+console.log(`${totalScore} points for 3 modules`);
 let averageScore = totalScore / 3;
-console.log("Average points for modules " + averageScore);
+console.log(`Average points for modules` + averageScore);
 
 let studentName = "Dmitriy";
 let studentSurname = "Rodionov";
